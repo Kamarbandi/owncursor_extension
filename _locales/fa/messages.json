@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "مکان نما جالب برای کروم ™. از یک مجموعه بزرگ از مکان نما رایگان استفاده کنید یا خودتان آپلود کنید."
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™ - تغییر مکان نما"
+   },
+   "cursor_size_extra_large": {
+      "message": "فوق العاده بزرگ"
+   },
+   "cursor_size_extra_small": {
+      "message": "بسیار کوچک"
+   },
+   "cursor_size_large": {
+      "message": "بزرگ"
+   },
+   "cursor_size_medium": {
+      "message": "متوسط"
+   },
+   "cursor_size_small": {
+      "message": "کوچک"
+   },
+   "delete": {
+      "message": "حذف"
+   },
+   "item_cursor": {
+      "message": "مکان نما"
+   },
+   "item_pointer": {
+      "message": "اشاره گر"
+   },
+   "manage_cursor_size_settings": {
+      "message": "تنظیمات اندازه مکان نما"
+   },
+   "manage_manage_collection": {
+      "message": "مدیریت مجموعه"
+   },
+   "nav_manage": {
+      "message": "مدیریت کردن"
+   },
+   "nav_more_cursors": {
+      "message": "نشانگرهای بیشتر"
+   },
+   "nav_upload_cursor": {
+      "message": "بارگذاری مکان نما"
+   },
+   "options_add_new": {
+      "message": "جدید اضافه کن"
+   },
+   "options_upload_recommendations": {
+      "message": "توصیه ها: \u003Cbr> - از تصاویر بیش از 128x128 پیکسل استفاده نکنید؛ \u003Cbr> - از تصاویر با پس زمینه شفاف مانند .png؛ \u003Cbr> - بیشتر لبخند بزنید؛) \u003Cbr>"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "نشانگرهای خود را بارگذاری کنید"
+   },
+   "popup_default_cursor": {
+      "message": "مکان نما پیش فرض"
+   },
+   "popup_manage": {
+      "message": "مدیریت کردن"
+   },
+   "popup_more_cursor": {
+      "message": "نشانگرهای بیشتر"
+   },
+   "popup_upload_cursor": {
+      "message": "بارگذاری مکان نما"
+   },
+   "rate_us_5_stars": {
+      "message": "لطفا به ما 5 ستاره بدهید، لطفا"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}

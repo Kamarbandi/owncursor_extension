@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "Кастомні курсори для Chrome ™. Використовуйте велику колекцію вільних курсорів або завантажуйте свій власний."
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™ - Змінити Курсор"
+   },
+   "cursor_size_extra_large": {
+      "message": "Дуже великий"
+   },
+   "cursor_size_extra_small": {
+      "message": "Дуже малий"
+   },
+   "cursor_size_large": {
+      "message": "Великий"
+   },
+   "cursor_size_medium": {
+      "message": "Середній"
+   },
+   "cursor_size_small": {
+      "message": "Малий"
+   },
+   "delete": {
+      "message": "Видалити"
+   },
+   "item_cursor": {
+      "message": "курсор"
+   },
+   "item_pointer": {
+      "message": "покажчик"
+   },
+   "manage_cursor_size_settings": {
+      "message": "Параметри розміру курсора"
+   },
+   "manage_manage_collection": {
+      "message": "Керування колекцією"
+   },
+   "nav_manage": {
+      "message": "Керувати"
+   },
+   "nav_more_cursors": {
+      "message": "Більше курсорів"
+   },
+   "nav_upload_cursor": {
+      "message": "Завантажити курсор"
+   },
+   "options_add_new": {
+      "message": "Додати новий"
+   },
+   "options_upload_recommendations": {
+      "message": "Рекомендації: \u003Cbr> - Не використовуйте картинки розміром понад 128х128 пікселів; \u003Cbr> - Використовуйте зображення з прозорим фоном, наприклад, .png; \u003Cbr> - Частіше посміхайтеся;) \u003Cbr>"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "Завантажте власні курсори"
+   },
+   "popup_default_cursor": {
+      "message": "За Замовчуванням"
+   },
+   "popup_manage": {
+      "message": "Керувати"
+   },
+   "popup_more_cursor": {
+      "message": "Більше курсорів"
+   },
+   "popup_upload_cursor": {
+      "message": "Завантажити курсор"
+   },
+   "rate_us_5_stars": {
+      "message": "Оцініть нас на 5 зірок, будь ласка"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}

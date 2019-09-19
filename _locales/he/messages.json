@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "סמנים מותאמים אישית מהנים עבור Chrome ™. השתמש אוסף גדול של הסמנים חינם או להעלות משלך."
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™ - מחלף הסמן"
+   },
+   "cursor_size_extra_large": {
+      "message": "גדול מאוד"
+   },
+   "cursor_size_extra_small": {
+      "message": "קטן במיוחד"
+   },
+   "cursor_size_large": {
+      "message": "גדול"
+   },
+   "cursor_size_medium": {
+      "message": "בינוני"
+   },
+   "cursor_size_small": {
+      "message": "קטן"
+   },
+   "delete": {
+      "message": "מחק"
+   },
+   "item_cursor": {
+      "message": "הסמן"
+   },
+   "item_pointer": {
+      "message": "מצביע"
+   },
+   "manage_cursor_size_settings": {
+      "message": "הגדרות גודל הסמן"
+   },
+   "manage_manage_collection": {
+      "message": "ניהול אוסף"
+   },
+   "nav_manage": {
+      "message": "לנהל"
+   },
+   "nav_more_cursors": {
+      "message": "יותר סמנים"
+   },
+   "nav_upload_cursor": {
+      "message": "טען סמן"
+   },
+   "options_add_new": {
+      "message": "הוסף חדש"
+   },
+   "options_upload_recommendations": {
+      "message": "המלצות: \u003Cbr> - אל תשתמש בתמונות יותר מ 128x128 פיקסלים; \u003Cbr> - השתמש בתמונות עם רקע שקוף, כגון .png; \u003Cbr> - חיוך לעתים קרובות יותר)"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "העלה את הסמנים שלך"
+   },
+   "popup_default_cursor": {
+      "message": "סמן ברירת מחדל"
+   },
+   "popup_manage": {
+      "message": "לנהל"
+   },
+   "popup_more_cursor": {
+      "message": "יותר סמנים"
+   },
+   "popup_upload_cursor": {
+      "message": "טען סמן"
+   },
+   "rate_us_5_stars": {
+      "message": "דרג לנו 5 כוכבים, בבקשה"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}

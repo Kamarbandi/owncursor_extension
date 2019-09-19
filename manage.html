@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Own Custom Cursor for Chrome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="Own Custom Cursors collection for Chrome browser. Greatest collection for you to choose from.">
+    <meta name="keywords" content="Own cursors, Custom Cursors, Chrome">
+    <meta name="author" content="Azad">
+    <!-- css -->
+    <link href="stil/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="stil/manage.css" rel="stylesheet">
+    <link href="stil/cursorslider.css" rel="stylesheet">
+
+    <link rel="icon" href="stil/favicon.ico">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+        @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .collection-card {
+            margin-bottom: 25px;
+        }
+
+        .sub-footer {
+            border-top: 1px solid #fafafa;
+            padding: 20px 0 15px;
+            /* padding: 50px 0 20px; */
+        }
+
+        a {
+            color: #666;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 13px;
+        }
+
+        a:hover {
+            color: #76c59d;
+        }
+
+
+        .modal-body ul {
+            list-style: none;
+            padding: 0px;
+        }
+
+        .modal-body ul li {
+            padding: 10px 5px 3px 5px !important;
+        }
+
+        .modal-body ul li:hover {
+            background: rgba(228, 228, 228, 0.9);
+        }
+
+        .modal-body ul li img {
+            margin-right: 5px;
+            display: inline-block;
+        }
+
+        .delete-pack {
+            text-align: right;
+        }
+
+        .card {
+            padding-top: 25px !important;
+        }
+
+        a.delete-pack {
+            text-decoration: none;
+            margin-top: 5px;
+            padding-right: 10px;
+            display: inline-block;
+            float: right;
+        }
+
+        a.delete-pack:hover {
+            color: #ff7575;
+        }
+
+        .pack-name {
+            width: 300px;
+            display: inline-block;
+            text-wrap: none;
+        }
+
+        .modal-content {
+            width: 550px !important;
+        }
+
+        .collection-card {
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        .card:hover, .card:focus {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+        }
+
+        .card:hover img, .card:focus img {
+            background-color: rgba(242, 245, 248, 0.1);
+        }
+
+        .card {
+            border: none;
+        }
+
+        .card:hover, .card:focus {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22);
+        }
+
+        .sub-footer {
+            border-top: 1px solid #fafafa;
+            padding: 20px 0 15px;
+            /* padding: 50px 0 20px; */
+        }
+
+        a.nav-link {
+            font-size: 13px;
+            letter-spacing: 1px;
+            color: #666;
+            text-transform: uppercase;
+            font-weight: 700;
+            background: transparent;
+        }
+
+        a.nav-link:hover {
+            color: #76c59d !important;
+        }
+
+        .btn-danger {
+            background: #ff7575;
+            border: #ff7575;
+        }
+
+        .btn-secondary {
+            background: rgb(66, 66, 66);
+            text-transform: uppercase;
+
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 100;
+            color: #444;
+            line-height: 1.4em;
+        }
+        li.active .nav-link span{
+            color: #76c59d !important;
+        }
+        a{
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+<body>
+<div class="container" id="navigation">
+    <nav class="navbar navbar-expand-md">
+        <a class="navbar-brand" href="http://owncursor.com" target="_blank">
+            <img class="img-fluid"
+                 src="http://owncursor.com/icons/logo.png"
+                 alt="Own custom Cursor for Chrome"
+                 width="150" height="40"
+                 title="Own Custom Cursor for Chrome™"></a>
+
+        <div class=" navbar-collapse menu-container" id="navBarMenu">
+            <ul class="menu ml-auto own_navbar">
+                <li class="nav-item menu-store">
+                    <a class="nav-link" href="nastroyka.html"><span data-i18n="nav_upload_cursor"></span></a>
+                </li>
+                <li class="nav-item active menu-store"><a class="nav-link" href="/manage.html"><span
+                        data-i18n="nav_manage"></span></a>
+                </li>
+                <li class="nav-item menu-store"><a class="nav-link" target="_blank" href="http://owncursor.com" ><span data-i18n="nav_more_cursors"></span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+<div class="container-fluid" style="margin-top: 50px">
+    <div class="container">
+        <div class="row text-center" style="margin-bottom: 25px">
+            <div class="col">
+                <h3 data-i18n="manage_cursor_size_settings">Cursor Size Settings</h3>
+            </div>
+        </div>
+        <div class="row text-center" id="otherSettings">
+            <div class="col-1"></div>
+            <div class="col-10" id="inputSlider">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" style="margin-top: 55px; padding: 55px">
+    <div class="container">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col" style="margin-bottom: 0px">
+                    <h3 data-i18n="manage_manage_collection">Collections</h3>
+                </div>
+            </div>
+            <div class="row files-wr box row gallery-item" style="min-height: 400px" data-count-files="1"
+                 id="collection">
+
+            </div>
+            <div id="dialogs"></div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <footer class="bg-gray navbar-fixed-bottom row-fluid  ">
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="wow fadeInLeft" data-wow-delay="0.1s">
+                            <div class="text-center">
+                                <span>Copyright&copy;  All rights reserved.</span>
+                            </div>
+                            <div class="text-center">
+                                <span id="feedback"><a data-i18n="rate_us_5_stars" target="_blank" href="https://chrome.google.com/webstore/detail/own-cursor/nklkajneocelenfmhgolmocifpggoghm/reviews">Rate us 5 stars, please </a></span>
+                                <span class="float-right hidden" id="version"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Localize.js"></script>
+<script src="js/bootstrap-slider.js"></script>
+<script src="js/cursor.js"></script>
+<script src="js/info.js"></script>
+<script src="manage.js"></script>
+</body>
+
+</html>

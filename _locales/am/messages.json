@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "አስደሳች የ Chrome ™ ቀስት. ሰፋ ያሉ ጠቋሚዎችን ስብስብ ይጠቀሙ ወይም የራስዎን ይስቀሉ."
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™- ጠቋሚ ለውጥ"
+   },
+   "cursor_size_extra_large": {
+      "message": "በጣም ትልቅ"
+   },
+   "cursor_size_extra_small": {
+      "message": "በጣም ትንሽ"
+   },
+   "cursor_size_large": {
+      "message": "ትልቅ"
+   },
+   "cursor_size_medium": {
+      "message": "መካከለኛ"
+   },
+   "cursor_size_small": {
+      "message": "ትንሽ"
+   },
+   "delete": {
+      "message": "ሰርዝ"
+   },
+   "item_cursor": {
+      "message": "ጠቋሚ"
+   },
+   "item_pointer": {
+      "message": "አገናኝ ጠቋሚ"
+   },
+   "manage_cursor_size_settings": {
+      "message": "የሾም መጠን ቅንጅቶች"
+   },
+   "manage_manage_collection": {
+      "message": "ስብስብ አደራጅ"
+   },
+   "nav_manage": {
+      "message": "አቀናብር"
+   },
+   "nav_more_cursors": {
+      "message": "ተጨማሪ ጠቋሚዎች"
+   },
+   "nav_upload_cursor": {
+      "message": "ጠቋሚውን ይስቀሉ"
+   },
+   "options_add_new": {
+      "message": "አዲስ አስገባ"
+   },
+   "options_upload_recommendations": {
+      "message": "ምክሮች: - - ከ 128 x128 ፒክሰሎች በላይ ስሞችን አትጠቀም. \u003Cbr> - እንደ .png የመሰለ ግልጽ ብርሃን ያለው ምስል በመጠቀም ምስሎችን ተጠቀም - - ብዙውን ጊዜ ፈገግ በል;)"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "የራስዎን ጠቋሚዎች ይስቀሉ"
+   },
+   "popup_default_cursor": {
+      "message": "ነባሪ ጠቋሚ"
+   },
+   "popup_manage": {
+      "message": "አቀናብር"
+   },
+   "popup_more_cursor": {
+      "message": "ተጨማሪ ጠቋሚዎች"
+   },
+   "popup_upload_cursor": {
+      "message": "ጠቋሚውን ይስቀሉ"
+   },
+   "rate_us_5_stars": {
+      "message": "እባክዎ ለ 5 ኮከቦች ይስጡን"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}

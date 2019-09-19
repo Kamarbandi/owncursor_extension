@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "Chrome™的自定义光标。 使用大量免费游标或上传自己的游标。"
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™ - 自定义光标"
+   },
+   "cursor_size_extra_large": {
+      "message": "特大号"
+   },
+   "cursor_size_extra_small": {
+      "message": "超小"
+   },
+   "cursor_size_large": {
+      "message": "大"
+   },
+   "cursor_size_medium": {
+      "message": "介质"
+   },
+   "cursor_size_small": {
+      "message": "小"
+   },
+   "delete": {
+      "message": "删除"
+   },
+   "item_cursor": {
+      "message": "光标"
+   },
+   "item_pointer": {
+      "message": "指针"
+   },
+   "manage_cursor_size_settings": {
+      "message": "光标大小设置"
+   },
+   "manage_manage_collection": {
+      "message": "管理集合"
+   },
+   "nav_manage": {
+      "message": "管理"
+   },
+   "nav_more_cursors": {
+      "message": "更多游标"
+   },
+   "nav_upload_cursor": {
+      "message": "上传光标"
+   },
+   "options_add_new": {
+      "message": "添新"
+   },
+   "options_upload_recommendations": {
+      "message": "建议：\u003Cbr>  - 不要使用超过128x128像素的图片; \u003Cbr>  - 使用透明背景的图片，例如.png; \u003Cbr>  - 微笑更频繁;）\u003Cbr>"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "上传自己的游标"
+   },
+   "popup_default_cursor": {
+      "message": "默认光标"
+   },
+   "popup_manage": {
+      "message": "管理"
+   },
+   "popup_more_cursor": {
+      "message": "更多游标"
+   },
+   "popup_upload_cursor": {
+      "message": "上传光标"
+   },
+   "rate_us_5_stars": {
+      "message": "请给我们5颗星"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}

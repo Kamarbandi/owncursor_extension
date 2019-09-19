@@ -1,0 +1,74 @@
+{
+   "app_description": {
+      "message": "Miellyttävät mukautetut osoittimet Chrome ™ -ohjelmalle. Käytä suurta kokoelmaa ilmaisista kohdistimista tai lataa oma."
+   },
+   "app_name": {
+      "message": "Own Cursor for Chrome™ - Mukautettu kursori"
+   },
+   "cursor_size_extra_large": {
+      "message": "Erittäin suuri"
+   },
+   "cursor_size_extra_small": {
+      "message": "Erittäin pieni"
+   },
+   "cursor_size_large": {
+      "message": "Suuri"
+   },
+   "cursor_size_medium": {
+      "message": "Keskikokoinen"
+   },
+   "cursor_size_small": {
+      "message": "Pieni"
+   },
+   "delete": {
+      "message": "Poistaa"
+   },
+   "item_cursor": {
+      "message": "kursori"
+   },
+   "item_pointer": {
+      "message": "osoitin"
+   },
+   "manage_cursor_size_settings": {
+      "message": "Kohdistimen koon asetukset"
+   },
+   "manage_manage_collection": {
+      "message": "Hallitse kokoelmia"
+   },
+   "nav_manage": {
+      "message": "Hoitaa"
+   },
+   "nav_more_cursors": {
+      "message": "Lisää kohdistimia"
+   },
+   "nav_upload_cursor": {
+      "message": "Siirrä kohdistin"
+   },
+   "options_add_new": {
+      "message": "Lisää uusi"
+   },
+   "options_upload_recommendations": {
+      "message": "Suositukset: \u003Cbr> - Älä käytä yli 128 x 128 kuvapistettä, \u003Cbr> - Käytä kuvia, joissa on läpinäkyvä tausta, kuten .png; \u003Cbr> - Hymy useammin;) \u003Cbr>"
+   },
+   "options_upload_your_own_cursors": {
+      "message": "Lataa omia kohdistimia"
+   },
+   "popup_default_cursor": {
+      "message": "Oletuskohdistin"
+   },
+   "popup_manage": {
+      "message": "Hoitaa"
+   },
+   "popup_more_cursor": {
+      "message": "Lisää kohdistimia"
+   },
+   "popup_upload_cursor": {
+      "message": "Siirrä kohdistin"
+   },
+   "rate_us_5_stars": {
+      "message": "Arvostele meille 5 tähteä"
+   },
+   "short_name": {
+      "message": "Own Cursor"
+   }
+}
