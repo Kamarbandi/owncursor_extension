@@ -1,16 +1,16 @@
-class Popup {
+class Defpop {
     constructor() {
         this.collection = {};
-        this.myCollection = {};
-        this.siteCollection = {};
+        this.myOwnListCol = {};
+        this.colOfSite = {};
         this.size = 3;
 
         chrome.storage.local.get(null, function (items) {
-            this.myCollection = items.myCollection;
-            this.siteCollection = items.collection;
+            this.myOwnListCol = items.myOwnListCol;
+            this.colOfSite = items.collection;
             this.size = items.size;
-            for (let index in this.siteCollection) {
-                let collection = this.siteCollection[index];
+            for (let index in this.colOfSite) {
+                let collection = this.colOfSite[index];
                 this.collection[collection.slug] = collection;
             }
 
@@ -19,50 +19,49 @@ class Popup {
             }.bind(this));
 
             this.init();
-            this.localize();
+            this.makelocalize();
         }.bind(this));
-        (new Localize()).init();
-        console.log('constructor');
+        (new LanguageLocal()).init();
     }
 
-    replace_i18n(obj, tag) {
-        let msg = tag.replace(/__MSG_(\w+)__/g, function (match, v1) {
+    change_i18n(o, t) {
+        let messages = t.replace(/__MSG_(\w+)__/g, function (match, v1) {
             return v1 ? chrome.i18n.getMessage(v1) : '';
         });
-        if (msg != tag) {
-            obj.innerHTML = msg;
+        if (messages != t) {
+            o.innerHTML = messages;
         }
     }
 
-    localize() {
-        let data = document.querySelectorAll('[data-i18n]');
-        for (let i in data)
-            if (data.hasOwnProperty(i)) {
-                let obj = data[i],
-                    tag = obj.getAttribute('data-i18n').toString();
-                this.replace_i18n(obj, tag);
+    makelocalize() {
+        let resultat = document.querySelectorAll('[data-aju23]');
+        for (let z in resultat)
+            if (resultat.hasOwnProperty(z)) {
+                let obj = resultat[z],
+                    tag = obj.getAttribute('data-aju23').toString();
+                this.change_i18n(obj, tag);
             }
-        let page = document.getElementsByTagName('html');
-        for (let j = 0; j < page.length; j++) {
-            let obj = page[j],
+        let sehife = document.getElementsByTagName('html');
+        for (let j = 0; j < sehife.length; j++) {
+            let obj = sehife[j],
                 tag = obj.innerHTML.toString();
-            this.replace_i18n(obj, tag);
+            this.change_i18n(obj, tag);
         }
     }
 
     init() {
-        $("#listCategory").html("");
-        let categoryNode = $("#listCategory");
+        $("#allCategoryOwn").html("");
+        let categoryNode = $("#allCategoryOwn");
 
-        let cat = $(`<div class="icons-category nature normal skin-1" data-index="-1"><h1 name="myCollection"><a name="myCollection">My collection</a></h1></div>`);
-        for (let image in this.myCollection) {
-            let elem = null, item = this.myCollection[image];
+        let cat = $(`<div class="icons-category normal skin-1" data-index="-1"><h1 name="myOwnListCol"><a name="myOwnListCol">My List</a></h1></div>`);
+        for (let image in this.myOwnListCol) {
+            let elem = null, item = this.myOwnListCol[image];
             if (item.cursor.path) {
                 elem = $(`<div class="icon">
-                <img class="icon-img button cursor" data-id="${image}"  data-index="${image}"  data-cat="-1" data-category="-1" src="${item.cursor.path}"></div>`);
+                <img class="icon-img  cursor" data-id="${image}"  data-index="${image}"  data-cat="-1" data-category="-1" src="${item.cursor.path}"></div>`);
             } else {
                 elem = $(`<div class="icon" >
-                <img class="icon-img button cursor" data-id="${image}"  data-index="${image}" data-cat="-1" data-category="-1" src="${item.pointer.path}"></div>`);
+                <img class="icon-img  cursor" data-id="${image}"  data-index="${image}" data-cat="-1" data-category="-1" src="${item.pointer.path}"></div>`);
             }
             cat.append(elem);
         }
@@ -112,12 +111,12 @@ class Popup {
                 id = $(e.target).data('index'), item;
 
             console.log('dataId:'+dataId+' id:'+id);
-            console.log(this.myCollection);
+            console.log(this.myOwnListCol);
             console.log(this.collection);
 
 
             if (dataId == -1) {
-                item = this.myCollection[id];
+                item = this.myOwnListCol[id];
                 item.type = item.type;
             } else {
                 item = this.collection[dataId].items[id]
@@ -132,41 +131,41 @@ class Popup {
 
 
             let settings = {
-                max_width: 24,
-                max_height: 24
+                width: 24,
+                height: 24
             };
 
             if (size == 1) {
-                settings.max_width = 16;
-                settings.max_height = 16;
+                settings.width = 16;
+                settings.height = 16;
             }
             if (size == 2) {
-                settings.max_width = 24;
-                settings.max_height = 24;
+                settings.width = 24;
+                settings.height = 24;
             }
             if (size == 3) {
-                settings.max_width = 32;
-                settings.max_height = 32;
+                settings.width = 32;
+                settings.height = 32;
             }
             if (size == 4) {
-                settings.max_width = 48;
-                settings.max_height = 48;
+                settings.width = 48;
+                settings.height = 48;
             }
             if (size == 5) {
-                settings.max_width = 64;
-                settings.max_height = 64;
+                settings.width = 64;
+                settings.height = 64;
             }
             if (size == 6) {
-                settings.max_width = 80;
-                settings.max_height = 80;
+                settings.width = 80;
+                settings.height = 80;
             }
             if (size == 7) {
-                settings.max_width = 96;
-                settings.max_height = 96;
+                settings.width = 96;
+                settings.height = 96;
             }
             if (size == 8) {
-                settings.max_width = 128;
-                settings.max_height = 128;
+                settings.width = 128;
+                settings.height = 128;
             }
 
 
@@ -197,14 +196,14 @@ class Popup {
                 if (!item.pointer.original) {
                     item.pointer.original = item.pointer.path;
                 }
-                pointer = this.resizeImgData(item.pointer.original, settings.max_width, settings.max_height, 'pointer')
+                pointer = this.resizeImgData(item.pointer.original, settings.width, settings.height, 'pointer')
             }
 
             if(item.cursor.path) {
                 if (!item.cursor.original) {
                     item.cursor.original = item.cursor.path;
                 }
-                cursor = this.resizeImgData(item.cursor.original, settings.max_width, settings.max_height, 'cursor')
+                cursor = this.resizeImgData(item.cursor.original, settings.width, settings.height, 'cursor')
             }
 
             Promise.all([ cursor, pointer]).then( (values) => {
@@ -261,5 +260,5 @@ class Popup {
 }
 
 (function () {
-    new Popup();
+    new Defpop();
 })()

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"  content="Own Custom Cursors collection for Chrome browser. Greatest collection for you to choose from.">
     <meta name="keywords" content="Own cursors, Custom Cursors, Chrome">
-    <meta name="author" content="Azad">
     <!-- css -->
     <link href="stil/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="stil/manage.css" rel="stylesheet">
@@ -14,12 +13,8 @@
 
     <link rel="icon" href="stil/favicon.ico">
     <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-        @import url('https://fonts.googleapis.com/css?family=Montserrat');
-
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Arial', sans-serif;
         }
 
         .collection-card {
@@ -167,15 +162,15 @@
                  width="150" height="40"
                  title="Own Custom Cursor for Chrome™"></a>
 
-        <div class=" navbar-collapse menu-container" id="navBarMenu">
+        <div class="navbar-collapse menu-container" id="navBarMenu">
             <ul class="menu ml-auto own_navbar">
                 <li class="nav-item menu-store">
-                    <a class="nav-link" href="nastroyka.html"><span data-i18n="nav_upload_cursor"></span></a>
+                    <a class="nav-link" href="nastroyka.html"><span data-aju23="nav_upload_cursor"></span></a>
                 </li>
                 <li class="nav-item active menu-store"><a class="nav-link" href="/manage.html"><span
-                        data-i18n="nav_manage"></span></a>
+                        data-aju23="nav_manage"></span></a>
                 </li>
-                <li class="nav-item menu-store"><a class="nav-link" target="_blank" href="http://owncursor.com" ><span data-i18n="nav_more_cursors"></span></a>
+                <li class="nav-item menu-store"><a class="nav-link" target="_blank" href="http://owncursor.com" ><span data-aju23="nav_more_cursors"></span></a>
                 </li>
             </ul>
 
@@ -183,11 +178,12 @@
     </nav>
 </div>
 
-<div class="container-fluid" style="margin-top: 50px">
-    <div class="container">
+
+<div class="container-fluid">
+    <div class="container" style="background:#efefef;border:1px #efefef solid; border-radius:5px;margin-bottom: 20px;padding-top:20px;">
         <div class="row text-center" style="margin-bottom: 25px">
             <div class="col">
-                <h3 data-i18n="manage_cursor_size_settings">Cursor Size Settings</h3>
+                <h3 data-aju23="manage_cursor_size_settings">Cursor Size Settings</h3>
             </div>
         </div>
         <div class="row text-center" id="otherSettings">
@@ -195,25 +191,16 @@
             <div class="col-10" id="inputSlider">
             </div>
         </div>
-    </div>
-</div>
 
-
-<div class="container-fluid" style="margin-top: 55px; padding: 55px">
-    <div class="container">
-        <div class="container">
             <div class="row text-center">
                 <div class="col" style="margin-bottom: 0px">
-                    <h3 data-i18n="manage_manage_collection">Collections</h3>
+                    <h3 data-aju23="manage_manage_collection">Collections</h3>
                 </div>
             </div>
             <div class="row files-wr box row gallery-item" style="min-height: 400px" data-count-files="1"
                  id="collection">
-
             </div>
             <div id="dialogs"></div>
-
-        </div>
     </div>
 </div>
 
@@ -228,7 +215,7 @@
                                 <span>Copyright&copy;  All rights reserved.</span>
                             </div>
                             <div class="text-center">
-                                <span id="feedback"><a data-i18n="rate_us_5_stars" target="_blank" href="https://chrome.google.com/webstore/detail/own-cursor/nklkajneocelenfmhgolmocifpggoghm/reviews">Rate us 5 stars, please </a></span>
+                                <span id="feedback"><a data-aju23="rate_us_5_stars" target="_blank" href="https://chrome.google.com/webstore/detail/own-cursor/nklkajneocelenfmhgolmocifpggoghm/reviews">Rate us 5 stars, please </a></span>
                                 <span class="float-right hidden" id="version"></span>
                             </div>
                         </div>
@@ -241,9 +228,9 @@
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="js/Localize.js"></script>
+<script src="js/LanguageLocal.js"></script>
 <script src="js/bootstrap-slider.js"></script>
-<script src="js/cursor.js"></script>
+<script src="js/owncursor.js"></script>
 <script src="js/info.js"></script>
 <script src="manage.js"></script>
 </body>

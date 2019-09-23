@@ -1,6 +1,6 @@
 {
    "app_description": {
-      "message": "Spaß benutzerdefinierte Cursor für Chrome ™. Verwenden Sie eine große Sammlung von freien Cursors oder laden Sie Ihre eigenen hoch."
+      "message": "Spaß benutzerdefinierte Cursor für Chrome. Verwenden Sie eine große Sammlung von freien Cursors oder laden Sie Ihre eigenen hoch."
    },
    "app_name": {
       "message": "Own Cursor for Chrome™ - Cursorwechsler"
@@ -48,7 +48,7 @@
       "message": "Neue hinzufügen"
    },
    "options_upload_recommendations": {
-      "message": "Empfehlungen: \u003Cbr> - Verwenden Sie keine Bilder mit mehr als 128 x 128 Pixeln; \u003Cbr> - Verwenden Sie Bilder mit transparentem Hintergrund, z. B. .png; \u003Cbr> - Lächeln Sie häufiger;) \u003Cbr>"
+      "message": "Empfehlungen: <br> - Verwenden Sie keine Bilder mit mehr als 128 x 128 Pixeln; <br> - Verwenden Sie Bilder mit transparentem Hintergrund, z. B. .png;"
    },
    "options_upload_your_own_cursors": {
       "message": "Laden Sie Ihre eigenen Cursor hoch"

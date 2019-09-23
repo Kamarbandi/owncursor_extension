@@ -25,8 +25,8 @@ class Options {
         });
 
         chrome.storage.local.get(null, function (items) {
-            this.renderCollection(items.myCollection);
-            this.collection = items.myCollection;
+            this.renderCollection(items.myOwnListCol);
+            this.collection = items.myOwnListCol;
 
         }.bind(this));
         this.init();
@@ -86,7 +86,7 @@ class Options {
                         newElemtn.find('.cursor .remove').removeClass('hidden');
 
                         this.collection[this.collectionId] = item;
-                        chrome.storage.local.set({myCollection: this.collection})
+                        chrome.storage.local.set({myOwnListCol: this.collection})
                     }.bind(this);
                 } else if (this.uploadType == 'pointer') {
 
@@ -108,11 +108,11 @@ class Options {
                         newElemtn.find('.pointer .upload').addClass('hidden');
                         newElemtn.find('.pointer .remove').removeClass('hidden');
                         this.collection[this.collectionId] = item;
-                        chrome.storage.local.set({myCollection: this.collection})
+                        chrome.storage.local.set({myOwnListCol: this.collection})
                     }.bind(this);
                 }
 
-                //chrome.storage.local.set({myCollection: this.collection})
+                //chrome.storage.local.set({myOwnListCol: this.collection})
 
             }.bind(this);
             reader.readAsDataURL(event.target.files[0]);
@@ -141,7 +141,7 @@ class Options {
             $(`.upload[data-id=${id}][data-type=pointer]`).removeClass('hidden')
             $(`.remove[data-id=${id}][data-type=pointer]`).addClass('hidden')
         }
-        chrome.storage.local.set({myCollection: this.collection});
+        chrome.storage.local.set({myOwnListCol: this.collection});
     }
 
     isEmpty(obj) {
@@ -226,5 +226,5 @@ class Options {
 
 new Options();
 $(function () {
-    (new Localize()).init();
+    (new LanguageLocal()).init();
 });

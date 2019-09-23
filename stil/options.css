@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600,700,800|Lato:100,400,300,700');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .form-control:focus {

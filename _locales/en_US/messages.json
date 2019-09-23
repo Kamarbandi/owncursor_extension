@@ -3,7 +3,7 @@
       "message": "Fun Own Cursors for Chrome™. Use a large collection of free cursors or upload your own."
    },
    "app_name": {
-      "message": "Own Cursor for Chrome™"
+      "message": "Own Cursor for Chrome"
    },
    "cursor_size_extra_large": {
       "message": "Extra Large"
@@ -30,13 +30,13 @@
       "message": "pointer"
    },
    "manage_cursor_size_settings": {
-      "message": "Cursor Size Settings"
+      "message": "Set Cursor Size"
    },
    "manage_manage_collection": {
-      "message": "Manage Collections"
+      "message": "Collections"
    },
    "nav_manage": {
-      "message": "Manage"
+      "message": "Setup"
    },
    "nav_more_cursors": {
       "message": "More cursors"
@@ -48,7 +48,7 @@
       "message": "Add new"
    },
    "options_upload_recommendations": {
-      "message": "Recommendations: \u003Cbr> - Don't use pictures more than 128x128 pixels;\u003Cbr> - Use images with a transparent background, such as .png;\u003Cbr> - Smile more often ;) \u003Cbr>"
+      "message": "Recommendations: <br> - Don't use pictures more than 128x128 pixels;<br> - Use images with a transparent background, such as .png"
    },
    "options_upload_your_own_cursors": {
       "message": "Upload your own cursors"
@@ -57,7 +57,7 @@
       "message": "Default Cursor"
    },
    "popup_manage": {
-      "message": "Manage"
+      "message": "Settings"
    },
    "popup_more_cursor": {
       "message": "More cursors"
@@ -66,7 +66,7 @@
       "message": "Upload cursor"
    },
    "rate_us_5_stars": {
-      "message": "Rate us 5 stars, please"
+      "message": "Rate us 5 stars"
    },
    "short_name": {
       "message": "Own Cursor"

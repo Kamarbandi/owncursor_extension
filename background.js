@@ -155,7 +155,7 @@ class background {
                 for (let i = 0; i < tabs.length; i++) {
                     if (tabs[i].url.indexOf('http') != -1) {
                         try {
-                            chrome.tabs.executeScript(tabs[i].id, {file: "js/cursor.js"}, function (result) {
+                            chrome.tabs.executeScript(tabs[i].id, {file: "js/owncursor.js"}, function (result) {
                                 let lastErr = chrome.runtime.lastError;
                                 if (lastErr) console.log('tab: %s', tabs[i].url);
                             });
@@ -175,7 +175,7 @@ class background {
             domain: 'http://owncursor.com/',
             collection: listOfCollection,
             size: 3,
-            myCollection: {}
+            myOwnListCol: {}
         });
     }
 

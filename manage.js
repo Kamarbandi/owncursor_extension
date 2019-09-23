@@ -81,7 +81,6 @@ chrome.storage.local.get('size', function (data) {
     }).on("change", function (item) {
         let size = item.value.newValue;
         chrome.storage.local.set({size: size});
-        console.log(size);
     });
 })
 
@@ -178,8 +177,6 @@ chrome.storage.local.get(null, function (items) {
         }, 200);
         e.preventDefault()
     });
-    (new Localize()).init();
-
-
+    (new LanguageLocal()).init();
 });
 

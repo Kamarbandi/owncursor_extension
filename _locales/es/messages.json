@@ -48,7 +48,7 @@
       "message": "Añadir nuevo"
    },
    "options_upload_recommendations": {
-      "message": "Recomendaciones: \u003Cbr> - No use imágenes de más de 128x128 píxeles; \u003Cbr> - Use imágenes con un fondo transparente, como .png; \u003Cbr> - Sonríe más a menudo;) \u003Cbr>"
+      "message": "Recomendaciones: <br> - No use imágenes de más de 128x128 píxeles; <br> - Use imágenes con un fondo transparente, como .png;"
    },
    "options_upload_your_own_cursors": {
       "message": "Sube tus propios cursores"

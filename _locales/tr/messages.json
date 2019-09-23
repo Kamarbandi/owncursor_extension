@@ -48,7 +48,7 @@
       "message": "Yeni ekle"
    },
    "options_upload_recommendations": {
-      "message": "Öneriler: \u003Cbr> - 128x128 pikselden daha fazla resim kullanmayın; \u003Cbr> - .png gibi saydam arka plana sahip görüntüler kullanın; \u003Cbr> - Daha sık gülümse;) \u003Cbr>"
+      "message": "Öneriler: <br> - 128x128 pikselden daha fazla resim kullanmayın; <br> - .png gibi saydam arka plana sahip görüntüler kullanın;"
    },
    "options_upload_your_own_cursors": {
       "message": "Kendi imleçlerinizi yükleyin"

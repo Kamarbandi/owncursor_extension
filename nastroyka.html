@@ -28,12 +28,12 @@
         <div class=" navbar-collapse menu-container" id="navBarMenu">
             <ul class="menu ml-auto own_navbar">
                 <li class="nav-item menu-store active">
-                    <a class="nav-link active" href="nastroyka.html"><span data-i18n="nav_upload_cursor"></span></a>
+                    <a class="nav-link active" href="nastroyka.html"><span data-aju23="nav_upload_cursor"></span></a>
                 </li>
                 <li class="nav-item menu-store"><a class="nav-link" href="/manage.html"  ><span
-                        data-i18n="nav_manage"></span></a>
+                        data-aju23="nav_manage"></span></a>
                 </li>
-                <li class="nav-item menu-store"><a class="nav-link" target="_blank" href="https://custom-cursor.com"><span data-i18n="nav_more_cursors"></span></a>
+                <li class="nav-item menu-store"><a class="nav-link" target="_blank" href="http://owncursor.com"><span data-aju23="nav_more_cursors"></span></a>
                 </li>
             </ul>
 
@@ -42,10 +42,10 @@
 </div>
 
 <div class="container-fluid" style=" min-height: 400px; margin-top: 55px; margin-bottom: 100px">
-    <div class="container">
+    <div class="container" style="background:#efefef;border:1px #efefef solid; border-radius:5px;margin-bottom: 20px;padding-top:20px; padding-bottom: 50px">
         <div class="row">
             <div class="col">
-                <h3 style="margin-bottom: 0px" data-i18n="options_upload_your_own_cursors">Upload your own cursors</h3>
+                <h3 class="text-center" style="margin-bottom: 0px" data-aju23="options_upload_your_own_cursors">Upload your own cursors</h3>
             </div>
         </div>
         <div class="row" style="padding-left: 5px; margin-top: 20px">
@@ -57,30 +57,22 @@
             <div class="col-2"></div>
         </div>
         <div class="row">
-            <div class="col-9">
-                <div class="row" id="mycollection">
-                    <div class="col-2" style="padding: 5px 0px 6px 6px;    margin-right: 10px;">
-                        <button class="btn btn-info"
-                                style="    width: 100%; height: 100%; height: 75px "
-                                id="addNew" data-i18n="options_add_new">Add new
-                        </button>
-                    </div>
-                </div>
+            <div class="col-12 text-center" style="padding: 10px 5px">
+                <p data-aju23="options_upload_recommendations"></p>
             </div>
 
-            <div class="col-3" style="padding: 10px 5px">
-                <p data-i18n="options_upload_recommendations">Recommendations: <br>
-                    - Don't use pictures more than 128x128 pixels;<br>
-                    - Use images with a transparent background, such as .png;<br>
-                    - Smile more often ;) <br>
-                </p>
+            <div class="col-12">
+                <div class="row" id="mycollection">
+                    <div class="col-12 text-center" style="padding: 5px 0px 6px 6px;    margin-right: 10px;">
+                        <button class="btn btn-info"  style="width: 200px; height: 75px" id="addNew" data-aju23="options_add_new">Add new </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
 </div>
 <div class="container-fluid">
-
     <footer class="bg-gray navbar-fixed-bottom row-fluid margintop-50">
         <div class="sub-footer">
             <div class="container">
@@ -90,10 +82,6 @@
                             <div class="text-center">
                                 <span>Copyright&copy;  All rights reserved.</span>
                             </div>
-                            <div class="text-center">
-                                <span id="feedback"><a data-i18n="rate_us_5_stars" target="_blank" href="https://chrome.google.com/webstore/detail/own-cursor/nklkajneocelenfmhgolmocifpggoghm/reviews">Rate us 5 stars, please </a></span>
-                                <span class="float-right hidden" id="version"></span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -102,11 +90,10 @@
     </footer>
 </div>
 
-
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<script src="js/Localize.js"></script>
+<script src="js/LanguageLocal.js"></script>
 <script src="js/jquery.js"></script>
-<script src="js/cursor.js"></script>
+<script src="js/owncursor.js"></script>
 <script src="settings.js"></script>
 </body>
 </html>

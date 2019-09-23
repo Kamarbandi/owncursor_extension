@@ -4,12 +4,9 @@
    "options_page": "nastroyka.html",
    "permissions": [ "tabs", "activeTab", "*://*/*", "cookies", "storage", "contextMenus", "webRequest", "webRequestBlocking" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.3",
-   "version_name": "0.3",
-   "web_accessible_resources": [ "popup/images/*.*", "popup/fonts/*.*", "*.*", "assets/cur/*.*" ],
-   "background": {
-      "scripts": [ "js/jquery.js", "js/collection.js", "background.js" ]
-   },
+   "version": "0.4",
+   "version_name": "0.4",
+
    "icons": {
       "128": "icons/icon128.png",
       "256": "icons/icon256.png",
@@ -27,14 +24,17 @@
       },
       "default_popup": "popup.html"
    },
+   "background": {
+      "scripts": [ "js/jquery.js", "js/listofcollection.js", "background.js" ]
+   },
    "content_scripts": [ {
       "all_frames": true,
-      "js": [ "js/jquery.js", "js/cursor.js" ],
+      "js": [ "js/jquery.js", "js/owncursor.js" ],
       "matches": [ "<all_urls>" ]
    } ],
    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "default_locale": "en",
-   "description": "Own cursor custom cursor",
+   "description": "Own cursor Colorful cursors make your browser Colorful",
    "externally_connectable": {
       "matches": [ "*://*.o.test/*" ]
    }
