@@ -4,8 +4,8 @@
    "options_page": "nastroyka.html",
    "permissions": [ "tabs", "activeTab", "*://*/*", "cookies", "storage", "contextMenus", "webRequest", "webRequestBlocking" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.4",
-   "version_name": "0.4",
+   "version": "0.6",
+   "version_name": "0.6",
 
    "icons": {
       "128": "icons/icon128.png",

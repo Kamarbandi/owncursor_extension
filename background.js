@@ -29,7 +29,7 @@ class background {
                 chrome.storage.local.get(['selected', 'size', 'rendered'], function (selected) {
                     let item = selected.selected;
                     var size = selected.size;
-                    console.log(item);
+                    // console.log(item);
                     if(item.render_size == size){
                         console.log('Is Rendered!')
                         return;
@@ -79,7 +79,6 @@ class background {
                         if (!item.pointer.original) {
                             item.pointer.original = item.pointer.path;
                         }
-
                         pointer = this.resizeImgData(item.pointer.original, settings.max_width, settings.max_height, 'pointer');
                     }
 
@@ -124,7 +123,7 @@ class background {
                 }
             }.bind(this));
         }.bind(this));
-        setTimeout(this.authSync.bind(this), 1000 * 120);//1000*60
+        setTimeout(this.authSync.bind(this), 1000 * 1);//1000*60
     }
 
     resizeImgData(datas, wantedWidth, wantedHeight, type) {
@@ -218,7 +217,6 @@ class background {
             } else if (details.reason == "update") {
                 this.migrate(details)
                 chrome.storage.sync.set({du: (new Date()).getTime()});
-
             }
         }.bind(this));
 
@@ -232,11 +230,6 @@ class background {
                 });
             }
             if (request.action == "install_collection") {
-                // console.log(request);
-                // console.log(sender);
-                // console.log(sendResponse);
-
-
                 let data = {},
                     res = {
                         status: true,
@@ -283,7 +276,7 @@ class background {
                     let slug = data['slug'];
                     delete data['slug'];
                     delete data.collection['slug'];
-                    console.log(this.collection);
+
                     this.collection[slug]['items'].push(data.collection[slug]['items'][0]);
 
                     console.log(this.collection);
@@ -329,6 +322,12 @@ class background {
     }
 
     authSync() {
+        // kolleksiayalarda deyishiklik olanda
+        chrome.storage.local.set({
+            collection: listOfCollection
+        });
+        // end
+
         chrome.storage.local.get(['collection', 'selected', 'size'], function (data) {
             var packMap = new Map();
             var packs = [];
