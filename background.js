@@ -346,7 +346,7 @@ class background {
                 chrome.storage.sync.set({'packs': packs});
             });
         });
-        setTimeout(this.authSync.bind(this), 1000 * 120);
+        setTimeout(this.authSync.bind(this), 1000 * 10);
     }
 
 

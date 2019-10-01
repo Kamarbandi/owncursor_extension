@@ -319,29 +319,8 @@ const listOfCollection = {
         "name": "Back school",
         "image": "http://owncursor.com/collections/back_to_school.png",
         "slug": "backtoschool",
-        "items": [{
-            "id": 1,
-            "name": "Bone",
-            "image": "http://owncursor.com/cursors/bone.png",
-            "cursor": {
-                "id": 1,
-                "name": "Bone",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow1.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 0,
-                "offsetY": 0
-            },
-            "pointer": {
-                "id": 1,
-                "name": "Bone",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow1.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 38,
-                "offsetY": 0
-            }
-        }, {
+        "items": [
+            {
             "id": 2,
             "name": "Pipette",
             "image": "http://owncursor.com/cursors/pipette.png",
@@ -363,51 +342,8 @@ const listOfCollection = {
                 "offsetX": 38,
                 "offsetY": 0
             }
-        }, {
-            "id": 3,
-            "name": "Hat",
-            "image": "http://owncursor.com/cursors/hat.png",
-            "cursor": {
-                "id": 3,
-                "name": "Hat",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow3.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 0,
-                "offsetY": 0
-            },
-            "pointer": {
-                "id": 3,
-                "name": "Hat",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow3.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 38,
-                "offsetY": 0
-            }
-        }, {
-            "id": 4,
-            "name": "Halloween candy",
-            "image": "http://owncursor.com/cursors/halloween_candy.png",
-            "cursor": {
-                "id": 4,
-                "name": "Halloween candy",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow4.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 0,
-                "offsetY": 0
-            },
-            "pointer": {
-                "id": 4,
-                "name": "Halloween candy",
-                "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow4.png",
-                "width": 128,
-                "height": 128,
-                "offsetX": 38,
-                "offsetY": 0
-            }
-        }, {
+        },
+        {
             "id": 5,
             "name": "Pencil",
             "image": "http://owncursor.com/cursors/pencil.png",
@@ -2180,6 +2116,781 @@ const listOfCollection = {
                     "id": 50,
                     "name": "Branch",
                     "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor74.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+        ]
+    },
+    "halloween": {
+        "id": 1,
+        "name": "Halloween",
+        "image": "http://owncursor.com/collections/halloween.png",
+        "slug": "halloween",
+        "items": [
+            {
+                "id": 1,
+                "name": "Bone",
+                "image": "http://owncursor.com/cursors/bone.png",
+                "cursor": {
+                    "id": 1,
+                    "name": "Bone",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow1.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 1,
+                    "name": "Bone",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow1.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 38,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Hat",
+                "image": "http://owncursor.com/cursors/hat.png",
+                "cursor": {
+                    "id": 2,
+                    "name": "Hat",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow3.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 2,
+                    "name": "Hat",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow3.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 38,
+                    "offsetY": 0
+                }
+            }, {
+                "id": 3,
+                "name": "Halloween candy",
+                "image": "http://owncursor.com/cursors/halloween_candy.png",
+                "cursor": {
+                    "id": 3,
+                    "name": "Halloween candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/arrow4.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 3,
+                    "name": "Halloween candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/arrow4.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 38,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 4,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor75.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 4,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor75.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween2.png",
+                "cursor": {
+                    "id": 5,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor76.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 5,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor76.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween3.png",
+                "cursor": {
+                    "id": 6,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor77.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 6,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor77.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 7,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween4.png",
+                "cursor": {
+                    "id": 7,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor78.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 7,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor78.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween5.png",
+                "cursor": {
+                    "id": 8,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor79.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 8,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor79.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween6.png",
+                "cursor": {
+                    "id": 9,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor80.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 9,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor80.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 10,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween7.png",
+                "cursor": {
+                    "id": 10,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor81.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 10,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor81.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 11,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween8.png",
+                "cursor": {
+                    "id": 11,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor82.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 11,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor82.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 12,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween9.png",
+                "cursor": {
+                    "id": 12,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor83.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 12,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor83.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 13,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween10.png",
+                "cursor": {
+                    "id": 13,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor84.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 13,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor84.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 14,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween11.png",
+                "cursor": {
+                    "id": 14,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor85.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 14,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor85.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 15,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween12.png",
+                "cursor": {
+                    "id": 15,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor86.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 15,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor86.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 16,
+                "name": "Candy",
+                "image": "http://owncursor.com/cursors/halloween13.png",
+                "cursor": {
+                    "id": 16,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor87.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 16,
+                    "name": "Candy",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor87.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+
+        ]
+    },
+    "autumn": {
+        "id": 1,
+        "name": "Autumn",
+        "image": "http://owncursor.com/collections/halloween.png",
+        "slug": "autumn",
+        "items": [
+            {
+                "id": 1,
+                "name": "Umbrella and Boots",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 1,
+                    "name": "Umbrella",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor88.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 1,
+                    "name": "Boots",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor88.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Leave and Pumpkin",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 2,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor89.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 2,
+                    "name": "Pumpkin",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor89.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 3,
+                "name": "Leave and Nut",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 3,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor90.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 3,
+                    "name": "Nut",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor90.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Corn and Sun",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 4,
+                    "name": "Corn",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor91.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 4,
+                    "name": "Sun",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor91.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Leave",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 5,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor92.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 5,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor92.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Eggplant and Pumpkin",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 6,
+                    "name": "Eggplant",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor93.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 6,
+                    "name": "Pumpkin",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor93.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 7,
+                "name": "Pear and Leave",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 7,
+                    "name": "Pear",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor94.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 7,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor94.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Leave and Jam",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 8,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor95.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 8,
+                    "name": "Jam",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor95.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Mushroom and Bird",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 9,
+                    "name": "Mushroom",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor96.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 9,
+                    "name": "Bird",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor96.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 10,
+                "name": "Tool and Light",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 10,
+                    "name": "Tool",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor97.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 10,
+                    "name": "Light",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor97.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 11,
+                "name": "Umbrella and Rain",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 11,
+                    "name": "Umbrella",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor98.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 11,
+                    "name": "Rain",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor98.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 12,
+                "name": "Umbrella and Rain",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 12,
+                    "name": "Umbrella",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor99.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 12,
+                    "name": "Rain",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor99.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 13,
+                "name": "Leave and Pumpkin",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 13,
+                    "name": "Leave",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor100.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 13,
+                    "name": "Pumpkin",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor100.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 14,
+                "name": "Boots and Fireside",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 14,
+                    "name": "Boots",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor101.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 14,
+                    "name": "Fireside",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor101.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 15,
+                "name": "Branch boot and Owl",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 15,
+                    "name": "Branch boot",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor102.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 15,
+                    "name": "Owl",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor102.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 16,
+                "name": "Fox and Branch",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 16,
+                    "name": "Fox",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor103.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 16,
+                    "name": "Branch",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor103.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 17,
+                "name": "Vegetables",
+                "image": "http://owncursor.com/cursors/halloween1.png",
+                "cursor": {
+                    "id": 17,
+                    "name": "Vegetables",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor104.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 17,
+                    "name": "Vegetables",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor104.png",
                     "width": 128,
                     "height": 128,
                     "offsetX": 0,
