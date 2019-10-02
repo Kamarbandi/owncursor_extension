@@ -2503,13 +2503,13 @@ const listOfCollection = {
     "autumn": {
         "id": 1,
         "name": "Autumn",
-        "image": "http://owncursor.com/collections/halloween.png",
+        "image": "http://owncursor.com/collections/autumn.png",
         "slug": "autumn",
         "items": [
             {
                 "id": 1,
                 "name": "Umbrella and Boots",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn1.png",
                 "cursor": {
                     "id": 1,
                     "name": "Umbrella",
@@ -2532,7 +2532,7 @@ const listOfCollection = {
             {
                 "id": 2,
                 "name": "Leave and Pumpkin",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn2.png",
                 "cursor": {
                     "id": 2,
                     "name": "Leave",
@@ -2555,7 +2555,7 @@ const listOfCollection = {
             {
                 "id": 3,
                 "name": "Leave and Nut",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn3.png",
                 "cursor": {
                     "id": 3,
                     "name": "Leave",
@@ -2578,7 +2578,7 @@ const listOfCollection = {
             {
                 "id": 4,
                 "name": "Corn and Sun",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn4.png",
                 "cursor": {
                     "id": 4,
                     "name": "Corn",
@@ -2601,7 +2601,7 @@ const listOfCollection = {
             {
                 "id": 5,
                 "name": "Leave",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn5.png",
                 "cursor": {
                     "id": 5,
                     "name": "Leave",
@@ -2624,7 +2624,7 @@ const listOfCollection = {
             {
                 "id": 6,
                 "name": "Eggplant and Pumpkin",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn6.png",
                 "cursor": {
                     "id": 6,
                     "name": "Eggplant",
@@ -2647,7 +2647,7 @@ const listOfCollection = {
             {
                 "id": 7,
                 "name": "Pear and Leave",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn7.png",
                 "cursor": {
                     "id": 7,
                     "name": "Pear",
@@ -2670,7 +2670,7 @@ const listOfCollection = {
             {
                 "id": 8,
                 "name": "Leave and Jam",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn8.png",
                 "cursor": {
                     "id": 8,
                     "name": "Leave",
@@ -2693,7 +2693,7 @@ const listOfCollection = {
             {
                 "id": 9,
                 "name": "Mushroom and Bird",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn9.png",
                 "cursor": {
                     "id": 9,
                     "name": "Mushroom",
@@ -2716,7 +2716,7 @@ const listOfCollection = {
             {
                 "id": 10,
                 "name": "Tool and Light",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn10.png",
                 "cursor": {
                     "id": 10,
                     "name": "Tool",
@@ -2739,7 +2739,7 @@ const listOfCollection = {
             {
                 "id": 11,
                 "name": "Umbrella and Rain",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn11.png",
                 "cursor": {
                     "id": 11,
                     "name": "Umbrella",
@@ -2760,32 +2760,9 @@ const listOfCollection = {
                 }
             },
             {
-                "id": 12,
-                "name": "Umbrella and Rain",
-                "image": "http://owncursor.com/cursors/halloween1.png",
-                "cursor": {
-                    "id": 12,
-                    "name": "Umbrella",
-                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor99.png",
-                    "width": 128,
-                    "height": 128,
-                    "offsetX": 0,
-                    "offsetY": 0
-                },
-                "pointer": {
-                    "id": 12,
-                    "name": "Rain",
-                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor99.png",
-                    "width": 128,
-                    "height": 128,
-                    "offsetX": 0,
-                    "offsetY": 0
-                }
-            },
-            {
                 "id": 13,
                 "name": "Leave and Pumpkin",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn13.png",
                 "cursor": {
                     "id": 13,
                     "name": "Leave",
@@ -2808,7 +2785,7 @@ const listOfCollection = {
             {
                 "id": 14,
                 "name": "Boots and Fireside",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn14.png",
                 "cursor": {
                     "id": 14,
                     "name": "Boots",
@@ -2831,7 +2808,7 @@ const listOfCollection = {
             {
                 "id": 15,
                 "name": "Branch boot and Owl",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn15.png",
                 "cursor": {
                     "id": 15,
                     "name": "Branch boot",
@@ -2854,7 +2831,7 @@ const listOfCollection = {
             {
                 "id": 16,
                 "name": "Fox and Branch",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn16.png",
                 "cursor": {
                     "id": 16,
                     "name": "Fox",
@@ -2877,7 +2854,7 @@ const listOfCollection = {
             {
                 "id": 17,
                 "name": "Vegetables",
-                "image": "http://owncursor.com/cursors/halloween1.png",
+                "image": "http://owncursor.com/cursors/autumn17.png",
                 "cursor": {
                     "id": 17,
                     "name": "Vegetables",
@@ -2897,6 +2874,706 @@ const listOfCollection = {
                     "offsetY": 0
                 }
             },
+        ]
+    },
+    "desserts": {
+        "id": 1,
+        "name": "Desserts",
+        "image": "http://owncursor.com/collections/desserts.png",
+        "slug": "desserts",
+        "items": [
+            {
+                "id": 1,
+                "name": "Croissant and Pancake",
+                "image": "http://owncursor.com/cursors/desserts1.png",
+                "cursor": {
+                    "id": 1,
+                    "name": "Croissant",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor105.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 1,
+                    "name": "Pancake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor105.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Cake and Donut",
+                "image": "http://owncursor.com/cursors/desserts2.png",
+                "cursor": {
+                    "id": 2,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor106.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 2,
+                    "name": "Donut",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor106.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 3,
+                "name": "Dessert",
+                "image": "http://owncursor.com/cursors/desserts3.png",
+                "cursor": {
+                    "id": 3,
+                    "name": "Dessert",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor107.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 3,
+                    "name": "Dessert",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor107.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Cake",
+                "image": "http://owncursor.com/cursors/desserts4.png",
+                "cursor": {
+                    "id": 4,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor108.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 4,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor108.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Cake",
+                "image": "http://owncursor.com/cursors/desserts5.png",
+                "cursor": {
+                    "id": 5,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor109.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 5,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor109.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts6.png",
+                "cursor": {
+                    "id": 6,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor110.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 6,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor110.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+
+
+            {
+                "id": 7,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts7.png",
+                "cursor": {
+                    "id": 7,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor111.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 7,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor111.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts8.png",
+                "cursor": {
+                    "id": 8,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor112.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 8,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor112.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts9.png",
+                "cursor": {
+                    "id": 9,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor113.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 9,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor113.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 10,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts10.png",
+                "cursor": {
+                    "id": 10,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor114.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 10,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor114.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 11,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts11.png",
+                "cursor": {
+                    "id": 11,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor115.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 11,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor115.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 12,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts12.png",
+                "cursor": {
+                    "id": 12,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor116.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 12,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor116.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 13,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts13.png",
+                "cursor": {
+                    "id": 13,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor117.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 13,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor117.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 14,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts14.png",
+                "cursor": {
+                    "id": 14,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor118.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 14,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor118.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 15,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts15.png",
+                "cursor": {
+                    "id": 15,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor119.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 15,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor119.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 16,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts16.png",
+                "cursor": {
+                    "id": 16,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor120.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 16,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor120.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 17,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts17.png",
+                "cursor": {
+                    "id": 17,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor121.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 17,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor121.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 18,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts18.png",
+                "cursor": {
+                    "id": 18,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor122.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 18,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor122.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 19,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts19.png",
+                "cursor": {
+                    "id": 19,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor123.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 19,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor123.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 20,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts20.png",
+                "cursor": {
+                    "id": 20,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor124.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 20,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor124.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 21,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts21.png",
+                "cursor": {
+                    "id": 21,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor125.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 21,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor125.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 22,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts22.png",
+                "cursor": {
+                    "id": 22,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor126.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 22,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor126.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 23,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts23.png",
+                "cursor": {
+                    "id": 23,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor127.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 23,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor127.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 24,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts24.png",
+                "cursor": {
+                    "id": 24,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor128.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 24,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor128.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 25,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts25.png",
+                "cursor": {
+                    "id": 25,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor129.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 25,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor129.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 26,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts26.png",
+                "cursor": {
+                    "id": 26,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor130.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 26,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor130.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 27,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts27.png",
+                "cursor": {
+                    "id": 27,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor131.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 27,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor131.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 28,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts28.png",
+                "cursor": {
+                    "id": 28,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor132.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 28,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor132.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 29,
+                "name": "Pasta",
+                "image": "http://owncursor.com/cursors/desserts29.png",
+                "cursor": {
+                    "id": 29,
+                    "name": "Pasta",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor133.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 29,
+                    "name": "Cake",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor133.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            },
+            {
+                "id": 30,
+                "name": "Barbeque",
+                "image": "http://owncursor.com/cursors/desserts30.png",
+                "cursor": {
+                    "id": 30,
+                    "name": "Barbeque",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/arrows/cursor134.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                },
+                "pointer": {
+                    "id": 30,
+                    "name": "Hot Meal",
+                    "path": "chrome-extension://egaaclefjebommgaonjmddkofgjnildl/stil/cursors/pointers/cursor134.png",
+                    "width": 128,
+                    "height": 128,
+                    "offsetX": 0,
+                    "offsetY": 0
+                }
+            }
         ]
     },
 }
